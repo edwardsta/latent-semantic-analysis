@@ -1,5 +1,5 @@
 # Latent Semantic Analysis Preprocessing (Tf-Idf, PCA)
-A preprocessing pipeline for latent semantic analysis is defined which performs term frequency-inverse document frequency (Tf-Idf)weighting and then dimensionality reduction via principal component analysis (PCA). This pipeline is then demonstrated using two sample categories from the native Scikit learn dataset, '20newsgroups'.
+A preprocessing pipeline for latent semantic analysis is defined which performs term frequency-inverse document frequency (Tf-Idf) weighting and then dimensionality reduction via principal component analysis (PCA). This pipeline is then demonstrated using two sample categories from the native Scikit learn dataset, '20newsgroups'.
 ## Overview
 For this example we'll create a complete pipeline using the python machine learning library scikit learn. The pipeline will consist of 3 major steps. First we'll import our sample text dataset and convert it into a matrix of token counts using the CountVectorizer implementation. Then we'll convert the count matrix into normalized term frequency-inverse document frequency representation using the Tfidftransformer function.
 ## Term Frequency-Inverse Document Frequency Weighting (Tf-Idf)
